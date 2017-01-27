@@ -1,0 +1,14 @@
+{
+  "main": "lib/rfc2231.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "lib/*": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}

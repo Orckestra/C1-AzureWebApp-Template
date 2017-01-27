@@ -1,0 +1,22 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "src/EntitySchema.js": {
+      "format": "esm"
+    },
+    "src/IterableSchema.js": {
+      "format": "esm"
+    },
+    "src/UnionSchema.js": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js",
+    "./src": "./src/index.js"
+  }
+}

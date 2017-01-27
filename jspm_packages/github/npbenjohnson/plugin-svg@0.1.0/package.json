@@ -1,0 +1,38 @@
+{
+  "name": "plugin-svg",
+  "version": "0.1.0",
+  "description": "ES6/AMD SVG loader for embedding SVGs with SystemJS",
+  "main": "plugin-svg.js",
+  "registry": "jspm",
+  "keywords": [
+    "systemjs",
+    "svg",
+    "jspm"
+  ],
+  "homepage": "https://github.com/npbenjohnson/plugin-svg",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/npbenjohnson/plugin-svg.git"
+  },
+  "author": {
+    "name": "Ben Johnson"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.24",
+    "babel-core": "^5.8.22",
+    "babel-runtime": "^5.8.24",
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.3.0",
+    "core-js": "^1.1.4",
+    "jspm": "^0.16.33",
+    "mocha": "^2.2.5",
+    "mocha-phantomjs": "^3.5.6",
+    "phantomjs": "1.9.18",
+    "systemjs": "^0.19.26",
+    "unexpected": "^9.11.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test.js"
+  }
+}

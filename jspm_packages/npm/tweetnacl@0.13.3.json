@@ -1,0 +1,37 @@
+{
+  "main": "nacl-fast.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "nacl-fast.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "nacl-fast.min.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "nacl.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "nacl.min.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  },
+  "map": {
+    "buffer": {
+      "browser": "@empty"
+    },
+    "crypto": {
+      "browser": "@empty"
+    }
+  }
+}

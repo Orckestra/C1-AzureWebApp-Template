@@ -1,0 +1,13 @@
+{
+  "main": "./module.js",
+  "name": "jspm-nodelibs-module",
+  "version": "0.2.0",
+  "registry": "github",
+  "map": {
+    "./module.js": {
+      "node": "@node/module",
+      "browser": "@empty"
+    }
+  },
+  "jspmNodeConversion": false
+}

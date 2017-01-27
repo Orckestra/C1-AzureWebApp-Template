@@ -1,0 +1,6 @@
+wallaby.js
+codemods/
+.coveralls.yml
+.eslintrc
+.travis.yml
+.idea/

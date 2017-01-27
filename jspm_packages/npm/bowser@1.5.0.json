@@ -1,0 +1,9 @@
+{
+  "main": "src/bowser.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

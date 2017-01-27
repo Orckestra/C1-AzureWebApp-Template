@@ -1,0 +1,9 @@
+{
+  "main": "lib/globalHook.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

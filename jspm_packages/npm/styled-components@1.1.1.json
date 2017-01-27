@@ -1,0 +1,131 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "dist/styled-components.es.js": {
+      "format": "esm"
+    },
+    "lib/index.js.flow": {
+      "format": "esm"
+    },
+    "lib/models/StyleSheet.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/glamor/sheet.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss-nested/index.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss-safe-parser/parse.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss-safe-parser/safe-parser.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/at-rule.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/comment.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/container.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/css-syntax-error.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/declaration.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/input.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/lazy-result.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/list.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/node.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/parse.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/parser.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/postcss.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/processor.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/result.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/root.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/rule.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/stringifier.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/stringify.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/terminal-highlight.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/tokenize.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/vendor.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/warn-once.js.flow": {
+      "format": "esm"
+    },
+    "lib/vendor/postcss/warning.js.flow": {
+      "format": "esm"
+    },
+    "src/constructors/test/keyframes.test.js": {
+      "format": "esm"
+    },
+    "src/constructors/test/styled.test.js": {
+      "format": "esm"
+    },
+    "src/index.js": {
+      "format": "esm"
+    },
+    "src/models/StyleSheet.js": {
+      "format": "esm"
+    },
+    "src/test/utils.js": {
+      "format": "esm"
+    },
+    "src/utils/test/*": {
+      "format": "esm"
+    },
+    "src/vendor/*": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js",
+    "./lib/native": "./lib/native/index.js",
+    "./lib/vendor/postcss-nested": "./lib/vendor/postcss-nested/index.js",
+    "./src/native": "./src/native/index.js"
+  }
+}

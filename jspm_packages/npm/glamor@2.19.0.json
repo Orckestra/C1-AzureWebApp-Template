@@ -1,0 +1,68 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "es6/CSSPropertyOperations/*": {
+      "format": "esm"
+    },
+    "es6/aphrodite.js": {
+      "format": "esm"
+    },
+    "es6/autoprefix.js": {
+      "format": "esm"
+    },
+    "es6/clean.js": {
+      "format": "esm"
+    },
+    "es6/css/raw.js": {
+      "format": "esm"
+    },
+    "es6/hash.js": {
+      "format": "esm"
+    },
+    "es6/index.js": {
+      "format": "esm"
+    },
+    "es6/jsxstyle.js": {
+      "format": "esm"
+    },
+    "es6/ous.js": {
+      "format": "esm"
+    },
+    "es6/plugins.js": {
+      "format": "esm"
+    },
+    "es6/react.js": {
+      "format": "esm"
+    },
+    "es6/reset.js": {
+      "format": "esm"
+    },
+    "es6/server.js": {
+      "format": "esm"
+    },
+    "es6/sheet.js": {
+      "format": "esm"
+    },
+    "es6/styled/*": {
+      "format": "esm"
+    },
+    "es6/utils.js": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js",
+    "./lib/CSSPropertyOperations": "./lib/CSSPropertyOperations/index.js",
+    "./lib/styled": "./lib/styled/index.js",
+    "./umd": "./umd/index.js"
+  }
+}

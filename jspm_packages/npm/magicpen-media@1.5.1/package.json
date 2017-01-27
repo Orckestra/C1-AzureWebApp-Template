@@ -1,0 +1,40 @@
+{
+  "name": "magicpen-media",
+  "version": "1.5.1",
+  "description": "Add media support to magicpen (images, audio, video)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unexpectedjs/magicpen-media.git"
+  },
+  "main": "lib/magicPenMedia.js",
+  "author": "Andreas Lind <andreas@one.com>",
+  "devDependencies": {
+    "browserify": "8.1.1",
+    "bundle-collapser": "1.2.0",
+    "coveralls": "2.11.2",
+    "istanbul": "0.3.17",
+    "jshint": "2.8.0",
+    "magicpen": "4.12.0",
+    "mocha": "2.2.5",
+    "sinon": "1.15.4",
+    "unexpected": "9.0.0",
+    "unexpected-fs": "1.1.0",
+    "unexpected-sinon": "6.4.1"
+  },
+  "files": [
+    "lib",
+    "magicPenMedia.min.js"
+  ],
+  "scripts": {
+    "lint": "jshint .",
+    "test": "mocha && npm run lint",
+    "travis": "npm test && npm run coverage && (<coverage/lcov.info coveralls || true)",
+    "coverage": "NODE_ENV=development istanbul cover --report text --report lcov _mocha -- --reporter dot && echo google-chrome coverage/lcov-report/index.html",
+    "prepublish": "browserify -p bundle-collapser/plugin -e lib/magicPenMedia -s magicPenMedia > magicPenMedia.min.js"
+  },
+  "dependencies": {
+    "gettemporaryfilepath": "0.0.1",
+    "lodash": "3.10.0",
+    "mime": "1.3.4"
+  }
+}

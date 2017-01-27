@@ -1,0 +1,22 @@
+{
+  "name": "arraydiff-async",
+  "description": "Diff two arrays, finding inserts, removes, and moves, using an asynchronous equality function",
+  "homepage": "https://github.com/bruderstein/arraydiff-async",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bruderstein/arraydiff-async"
+  },
+  "version": "0.2.0",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha test/*.spec.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "arraydiff": "^0.1.1",
+    "mocha": "^2.3.3",
+    "performance-now": "^0.2.0",
+    "unexpected": "^10.1.0"
+  },
+  "optionalDependencies": {}
+}

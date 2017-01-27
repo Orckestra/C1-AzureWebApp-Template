@@ -1,0 +1,24 @@
+{
+  "main": "lib/unexpectedMessy.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "lib/unexpectedMessy.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/unexpectedMessy.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}

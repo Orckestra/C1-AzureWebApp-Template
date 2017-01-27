@@ -1,0 +1,38 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "es/*": {
+      "format": "esm"
+    },
+    "src/bindActionCreators.js": {
+      "format": "esm"
+    },
+    "src/combineReducers.js": {
+      "format": "esm"
+    },
+    "src/compose.js": {
+      "format": "esm"
+    },
+    "src/createStore.js": {
+      "format": "esm"
+    },
+    "src/index.js": {
+      "format": "esm"
+    },
+    "src/utils/*": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js"
+  }
+}

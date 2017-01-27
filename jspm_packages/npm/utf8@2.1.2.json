@@ -1,0 +1,9 @@
+{
+  "main": "utf8.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "unexpected-htmllike-reactrendered-adapter",
+  "version": "2.0.1",
+  "scripts": {
+    "build": "babel src -d lib --source-maps true",
+    "prepublish": "npm run build",
+    "test": "mocha --compilers js:babel/register src/**/tests/*.spec.js"
+  },
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "domino": "^1.0.19",
+    "mocha": "^2.3.3",
+    "object-assign": "^4.0.1",
+    "react": "^15.0.0",
+    "react-addons-test-utils": "^15.0.0",
+    "unexpected": "^10.0.2"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1",
+    "react-render-hook": "^0.1.3"
+  }
+}

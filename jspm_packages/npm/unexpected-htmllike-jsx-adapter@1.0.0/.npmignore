@@ -1,0 +1,4 @@
+node_modules
+wallaby.js
+lib/tests
+src/tests

@@ -1,0 +1,14 @@
+{
+  "main": "lib/unexpected-sinon.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

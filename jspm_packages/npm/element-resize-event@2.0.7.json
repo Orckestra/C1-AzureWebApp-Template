@@ -1,0 +1,15 @@
+{
+  "main": "index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "example/bundle.js": {
+      "cjsRequireDetection": false
+    }
+  },
+  "map": {
+    "./example": "./example/index.js"
+  }
+}

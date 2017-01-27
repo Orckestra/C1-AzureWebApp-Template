@@ -1,0 +1,9 @@
+{
+  "main": "fetch.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

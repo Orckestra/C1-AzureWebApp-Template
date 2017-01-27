@@ -1,0 +1,12 @@
+{
+  "main": "src/lolex.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "lolex.js": {
+      "cjsRequireDetection": false
+    }
+  }
+}

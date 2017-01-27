@@ -1,0 +1,68 @@
+{
+  "name": "msgpack5",
+  "version": "3.4.1",
+  "description": "A msgpack v5 implementation for node.js and the browser, with extension points",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/* | faucet",
+    "build": "npm run browserify && npm run dist",
+    "browserify": "node_modules/.bin/browserify index.js -o dist/msgpack5.js -s msgpack5",
+    "dist": "node_modules/.bin/uglifyjs dist/msgpack5.js -o dist/msgpack5.min.js",
+    "test-browser": "browserify test/* | testling -u"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mcollina/msgpack5.git"
+  },
+  "keywords": [
+    "msgpack",
+    "extension",
+    "v5",
+    "msgpack",
+    "v5",
+    "ext"
+  ],
+  "author": "Matteo collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/msgpack5/issues"
+  },
+  "homepage": "https://github.com/mcollina/msgpack5",
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "faucet": "0.0.1",
+    "jshint": "^2.5.2",
+    "level-test": "^2.0.0",
+    "pre-commit": "1.0.10",
+    "standard": "^8.0.0",
+    "tape": "^4.0.0",
+    "testling": "^1.7.1",
+    "uglify-js": "^2.4.15"
+  },
+  "standard": {
+    "ignore": [
+      "dist/"
+    ]
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "dependencies": {
+    "bl": "^1.0.0",
+    "inherits": "^2.0.1",
+    "readable-stream": "^2.0.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "main": "bl.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "bl.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/*": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "main": "lib/lru-cache.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    }
+  },
+  "map": {
+    "lru-cache": "."
+  }
+}

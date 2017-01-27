@@ -1,0 +1,16 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "../3rdparty/prism": true,
+    "unexpected-dom.js": {
+      "cjsRequireDetection": false
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js"
+  }
+}

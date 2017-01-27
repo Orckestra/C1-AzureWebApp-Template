@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SystemJS hot reloader store example</title>
+    <script src="../jspm_packages/system.js" charset="utf-8"></script>
+    <script src="../config.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      System.trace = true; // required for hot reloading
+      System.import('./app.js');
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

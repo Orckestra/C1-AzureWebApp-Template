@@ -1,0 +1,24 @@
+{
+  "main": "index.js",
+  "map": {
+    "./index.js": {
+      "node": "@node/buffer"
+    }
+  },
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "test/constructor.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/node/*": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}

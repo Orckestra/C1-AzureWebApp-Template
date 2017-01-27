@@ -1,0 +1,9 @@
+{
+  "main": "lib/memoizeSync.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

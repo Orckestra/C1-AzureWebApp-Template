@@ -1,0 +1,9 @@
+{
+  "main": "dist/ImmutablePropTypes.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

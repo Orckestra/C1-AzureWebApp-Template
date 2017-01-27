@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/requiresAsyncError.js"],"names":[],"mappings":";;;;;;;;;;;;IAEqB,kBAAkB;YAAlB,kBAAkB;;WAAlB,kBAAkB;0BAAlB,kBAAkB;;+BAAlB,kBAAkB;;;SAAlB,kBAAkB;GAAS,KAAK;;qBAAhC,kBAAkB","file":"requiresAsyncError.js","sourcesContent":["\n\nexport default class RequiresAsyncError extends Error {\n\n}"]}

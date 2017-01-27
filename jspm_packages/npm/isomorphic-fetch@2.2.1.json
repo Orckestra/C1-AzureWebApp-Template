@@ -1,0 +1,14 @@
+{
+  "main": "fetch-npm-node.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  },
+  "map": {
+    "./fetch-npm-node.js": {
+      "browser": "./fetch-npm-browserify.js"
+    }
+  }
+}

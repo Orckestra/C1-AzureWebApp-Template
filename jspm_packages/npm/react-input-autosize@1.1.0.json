@@ -1,0 +1,12 @@
+{
+  "main": "lib/AutosizeInput.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "dist/react-input-autosize.js": {
+      "cjsRequireDetection": false
+    }
+  }
+}
