@@ -1,0 +1,40 @@
+{
+  "name": "systemjs-hot-reloader-store",
+  "version": "1.0.0",
+  "description": "Extremely simple utility for storing data across hot reloads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run serve & npm run watch",
+    "serve": "browser-sync start --server --startPath 'example'",
+    "watch": "chokidar-socket-emitter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peteruithoven/systemjs-hot-reloader-store.git"
+  },
+  "keywords": [
+    "hot-reloading",
+    "hot-reload",
+    "systemjs",
+    "jspm"
+  ],
+  "author": "Peter Uithoven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peteruithoven/systemjs-hot-reloader-store/issues"
+  },
+  "homepage": "https://github.com/peteruithoven/systemjs-hot-reloader-store#readme",
+  "jspm": {
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4",
+      "systemjs-hot-reloader": "github:capaj/systemjs-hot-reloader@^0.5.6"
+    }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "chokidar-socket-emitter": "^0.5.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "unexpected-zurvan",
+  "version": "0.1.0",
+  "description": "Plugin for unexpected allowing control of fake timers using the zurvan library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gertsonderby/unexpected-zurvan.git"
+  },
+  "keywords": [
+    "assert",
+    "test",
+    "assertion",
+    "unexpected"
+  ],
+  "author": "Gert Sønderby",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "3.0.2",
+    "unexpected": "10.16.0",
+    "zurvan": "0.3.2"
+  }
+}

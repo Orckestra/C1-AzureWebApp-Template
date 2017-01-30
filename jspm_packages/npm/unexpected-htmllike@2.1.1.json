@@ -1,0 +1,78 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "src/asyncContains.js": {
+      "format": "esm"
+    },
+    "src/asyncDiff.js": {
+      "format": "esm"
+    },
+    "src/contains.js": {
+      "format": "esm"
+    },
+    "src/convertToDiff.js": {
+      "format": "esm"
+    },
+    "src/diff.js": {
+      "format": "esm"
+    },
+    "src/diffCommon.js": {
+      "format": "esm"
+    },
+    "src/index.js": {
+      "format": "esm"
+    },
+    "src/isNativeType.js": {
+      "format": "esm"
+    },
+    "src/lineBreaker.js": {
+      "format": "esm"
+    },
+    "src/painter.js": {
+      "format": "esm"
+    },
+    "src/requiresAsyncError.js": {
+      "format": "esm"
+    },
+    "src/syncContains.js": {
+      "format": "esm"
+    },
+    "src/syncDiff.js": {
+      "format": "esm"
+    },
+    "src/tests/HtmlLike.spec.js": {
+      "format": "esm"
+    },
+    "src/tests/Weights.spec.js": {
+      "format": "esm"
+    },
+    "src/tests/contains.spec.js": {
+      "format": "esm"
+    },
+    "src/tests/diff.spec.js": {
+      "format": "esm"
+    },
+    "src/tests/lineBreaker.spec.js": {
+      "format": "esm"
+    },
+    "src/tests/mock-extensions.js": {
+      "format": "esm"
+    },
+    "src/tests/mockEntities.js": {
+      "format": "esm"
+    },
+    "src/tests/painter.spec.js": {
+      "format": "esm"
+    },
+    "src/tests/promises.spec.js": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "lib/HttpRequest.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/HttpResponse.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/Message.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/RequestLine.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/StatusLine.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/decodeChunkedTransferEncoding.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/HttpRequest.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/HttpResponse.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/Message.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "unexpected-htmllike-jsx-adapter",
+  "version": "1.0.0",
+  "description": "Adapter for unexpected-htmllike for ReactElements, e.g. JSX and the shallow renderer",
+  "author": {
+    "name": "Dave Brotherstone",
+    "email": "davegb@pobox.com"
+  },
+  "scripts": {
+    "build": "babel src -d lib --source-maps true",
+    "prepublish": "npm run build && npm test",
+    "test": "mocha --compilers js:babel/register --compilers jsx:babel/register src/tests/*.spec.jsx"
+  },
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "immutable": "^3.7.6",
+    "mocha": "^2.3.3",
+    "object-assign": "^4.0.1",
+    "react": "^15.0.0",
+    "test-peer-range": "^1.0.1",
+    "unexpected": "^10.0.1"
+  },
+  "dependencies": {
+    "object-assign": "^4.0.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruderstein/unexpected-htmllike-jsx-adapter"
+  }
+}

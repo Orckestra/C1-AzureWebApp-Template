@@ -1,0 +1,15 @@
+{
+  "main": "index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  },
+  "map": {
+    "./domains": "./domains/index.js",
+    "./lib": "./lib/index.js",
+    "./setimmediate": "./setimmediate/index.js",
+    "./src": "./src/index.js"
+  }
+}

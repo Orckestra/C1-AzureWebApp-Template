@@ -1,0 +1,9 @@
+{
+  "main": "hot-reloader.js",
+  "map": {
+    "./default-listener.js": {
+      "node": "@empty",
+      "production": "@empty"
+    }
+  }
+}

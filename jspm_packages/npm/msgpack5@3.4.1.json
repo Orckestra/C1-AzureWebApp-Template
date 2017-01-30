@@ -1,0 +1,207 @@
+{
+  "main": "index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "dist/msgpack5.js": {
+      "cjsRequireDetection": false
+    },
+    "example.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "index.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "lib/encoder.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/1-byte-length-buffers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/1-byte-length-exts.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/1-byte-length-strings.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/15-elements-arrays.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/15-elements-maps.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/16-bits-signed-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/16-bits-unsigned-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/2-bytes-length-arrays.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/2-bytes-length-buffers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/2-bytes-length-exts.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/2-bytes-length-maps.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/2-bytes-length-strings.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/31-chars-strings.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/32-bits-signed-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/32-bits-unsigned-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/32-bytes-strings.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/4-bytes-length-arrays.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/4-bytes-length-buffers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/4-bytes-length-exts.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/4-bytes-length-strings.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/5-bits-negative-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/64-bits-signed-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/64-bits-unsigned-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/7-bits-positive-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/8-bits-positive-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/8-bits-signed-integers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/booleans.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/compatibility-mode.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/doubles.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/ext-custom-encode-check.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/fixexts.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/floats.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/null.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/object-with-buffers.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/streams.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  }
+}

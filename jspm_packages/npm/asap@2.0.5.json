@@ -1,0 +1,28 @@
+{
+  "main": "asap.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    }
+  },
+  "map": {
+    "./asap": {
+      "browser": "./browser-asap.js"
+    },
+    "./asap.js": {
+      "browser": "./browser-asap.js"
+    },
+    "./raw": {
+      "browser": "./browser-raw.js"
+    },
+    "./raw.js": {
+      "browser": "./browser-raw.js"
+    }
+  }
+}

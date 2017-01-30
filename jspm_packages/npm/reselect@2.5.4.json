@@ -1,0 +1,18 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "es/*": {
+      "format": "esm"
+    },
+    "src/index.js": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js"
+  }
+}

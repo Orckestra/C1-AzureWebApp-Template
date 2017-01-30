@@ -1,0 +1,9 @@
+{
+  "main": "lib/arrayChanges.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

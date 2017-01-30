@@ -1,0 +1,20 @@
+{
+  "main": "react.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "dist/react-with-addons.js": {
+      "cjsRequireDetection": false
+    },
+    "dist/react.js": {
+      "cjsRequireDetection": false
+    }
+  }
+}

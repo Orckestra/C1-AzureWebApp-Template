@@ -1,0 +1,1917 @@
+{
+  "main": "lodash.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "_DataView.js": {
+      "format": "esm"
+    },
+    "_Hash.js": {
+      "format": "esm"
+    },
+    "_LazyWrapper.js": {
+      "format": "esm"
+    },
+    "_ListCache.js": {
+      "format": "esm"
+    },
+    "_LodashWrapper.js": {
+      "format": "esm"
+    },
+    "_Map.js": {
+      "format": "esm"
+    },
+    "_MapCache.js": {
+      "format": "esm"
+    },
+    "_Promise.js": {
+      "format": "esm"
+    },
+    "_Set.js": {
+      "format": "esm"
+    },
+    "_SetCache.js": {
+      "format": "esm"
+    },
+    "_Stack.js": {
+      "format": "esm"
+    },
+    "_Symbol.js": {
+      "format": "esm"
+    },
+    "_Uint8Array.js": {
+      "format": "esm"
+    },
+    "_WeakMap.js": {
+      "format": "esm"
+    },
+    "_addMapEntry.js": {
+      "format": "esm"
+    },
+    "_addSetEntry.js": {
+      "format": "esm"
+    },
+    "_apply.js": {
+      "format": "esm"
+    },
+    "_arrayAggregator.js": {
+      "format": "esm"
+    },
+    "_arrayEach.js": {
+      "format": "esm"
+    },
+    "_arrayEachRight.js": {
+      "format": "esm"
+    },
+    "_arrayEvery.js": {
+      "format": "esm"
+    },
+    "_arrayFilter.js": {
+      "format": "esm"
+    },
+    "_arrayIncludes.js": {
+      "format": "esm"
+    },
+    "_arrayIncludesWith.js": {
+      "format": "esm"
+    },
+    "_arrayLikeKeys.js": {
+      "format": "esm"
+    },
+    "_arrayMap.js": {
+      "format": "esm"
+    },
+    "_arrayPush.js": {
+      "format": "esm"
+    },
+    "_arrayReduce.js": {
+      "format": "esm"
+    },
+    "_arrayReduceRight.js": {
+      "format": "esm"
+    },
+    "_arraySample.js": {
+      "format": "esm"
+    },
+    "_arraySampleSize.js": {
+      "format": "esm"
+    },
+    "_arrayShuffle.js": {
+      "format": "esm"
+    },
+    "_arraySome.js": {
+      "format": "esm"
+    },
+    "_asciiSize.js": {
+      "format": "esm"
+    },
+    "_asciiToArray.js": {
+      "format": "esm"
+    },
+    "_asciiWords.js": {
+      "format": "esm"
+    },
+    "_assignInDefaults.js": {
+      "format": "esm"
+    },
+    "_assignMergeValue.js": {
+      "format": "esm"
+    },
+    "_assignValue.js": {
+      "format": "esm"
+    },
+    "_assocIndexOf.js": {
+      "format": "esm"
+    },
+    "_baseAggregator.js": {
+      "format": "esm"
+    },
+    "_baseAssign.js": {
+      "format": "esm"
+    },
+    "_baseAssignValue.js": {
+      "format": "esm"
+    },
+    "_baseAt.js": {
+      "format": "esm"
+    },
+    "_baseClamp.js": {
+      "format": "esm"
+    },
+    "_baseClone.js": {
+      "format": "esm"
+    },
+    "_baseConforms.js": {
+      "format": "esm"
+    },
+    "_baseConformsTo.js": {
+      "format": "esm"
+    },
+    "_baseCreate.js": {
+      "format": "esm"
+    },
+    "_baseDelay.js": {
+      "format": "esm"
+    },
+    "_baseDifference.js": {
+      "format": "esm"
+    },
+    "_baseEach.js": {
+      "format": "esm"
+    },
+    "_baseEachRight.js": {
+      "format": "esm"
+    },
+    "_baseEvery.js": {
+      "format": "esm"
+    },
+    "_baseExtremum.js": {
+      "format": "esm"
+    },
+    "_baseFill.js": {
+      "format": "esm"
+    },
+    "_baseFilter.js": {
+      "format": "esm"
+    },
+    "_baseFindIndex.js": {
+      "format": "esm"
+    },
+    "_baseFindKey.js": {
+      "format": "esm"
+    },
+    "_baseFlatten.js": {
+      "format": "esm"
+    },
+    "_baseFor.js": {
+      "format": "esm"
+    },
+    "_baseForOwn.js": {
+      "format": "esm"
+    },
+    "_baseForOwnRight.js": {
+      "format": "esm"
+    },
+    "_baseForRight.js": {
+      "format": "esm"
+    },
+    "_baseFunctions.js": {
+      "format": "esm"
+    },
+    "_baseGet.js": {
+      "format": "esm"
+    },
+    "_baseGetAllKeys.js": {
+      "format": "esm"
+    },
+    "_baseGetTag.js": {
+      "format": "esm"
+    },
+    "_baseGt.js": {
+      "format": "esm"
+    },
+    "_baseHas.js": {
+      "format": "esm"
+    },
+    "_baseHasIn.js": {
+      "format": "esm"
+    },
+    "_baseInRange.js": {
+      "format": "esm"
+    },
+    "_baseIndexOf.js": {
+      "format": "esm"
+    },
+    "_baseIndexOfWith.js": {
+      "format": "esm"
+    },
+    "_baseIntersection.js": {
+      "format": "esm"
+    },
+    "_baseInverter.js": {
+      "format": "esm"
+    },
+    "_baseInvoke.js": {
+      "format": "esm"
+    },
+    "_baseIsArguments.js": {
+      "format": "esm"
+    },
+    "_baseIsArrayBuffer.js": {
+      "format": "esm"
+    },
+    "_baseIsDate.js": {
+      "format": "esm"
+    },
+    "_baseIsEqual.js": {
+      "format": "esm"
+    },
+    "_baseIsEqualDeep.js": {
+      "format": "esm"
+    },
+    "_baseIsMap.js": {
+      "format": "esm"
+    },
+    "_baseIsMatch.js": {
+      "format": "esm"
+    },
+    "_baseIsNaN.js": {
+      "format": "esm"
+    },
+    "_baseIsNative.js": {
+      "format": "esm"
+    },
+    "_baseIsRegExp.js": {
+      "format": "esm"
+    },
+    "_baseIsSet.js": {
+      "format": "esm"
+    },
+    "_baseIsTypedArray.js": {
+      "format": "esm"
+    },
+    "_baseIteratee.js": {
+      "format": "esm"
+    },
+    "_baseKeys.js": {
+      "format": "esm"
+    },
+    "_baseKeysIn.js": {
+      "format": "esm"
+    },
+    "_baseLodash.js": {
+      "format": "esm"
+    },
+    "_baseLt.js": {
+      "format": "esm"
+    },
+    "_baseMap.js": {
+      "format": "esm"
+    },
+    "_baseMatches.js": {
+      "format": "esm"
+    },
+    "_baseMatchesProperty.js": {
+      "format": "esm"
+    },
+    "_baseMean.js": {
+      "format": "esm"
+    },
+    "_baseMerge.js": {
+      "format": "esm"
+    },
+    "_baseMergeDeep.js": {
+      "format": "esm"
+    },
+    "_baseNth.js": {
+      "format": "esm"
+    },
+    "_baseOrderBy.js": {
+      "format": "esm"
+    },
+    "_basePick.js": {
+      "format": "esm"
+    },
+    "_basePickBy.js": {
+      "format": "esm"
+    },
+    "_baseProperty.js": {
+      "format": "esm"
+    },
+    "_basePropertyDeep.js": {
+      "format": "esm"
+    },
+    "_basePropertyOf.js": {
+      "format": "esm"
+    },
+    "_basePullAll.js": {
+      "format": "esm"
+    },
+    "_basePullAt.js": {
+      "format": "esm"
+    },
+    "_baseRandom.js": {
+      "format": "esm"
+    },
+    "_baseRange.js": {
+      "format": "esm"
+    },
+    "_baseReduce.js": {
+      "format": "esm"
+    },
+    "_baseRepeat.js": {
+      "format": "esm"
+    },
+    "_baseRest.js": {
+      "format": "esm"
+    },
+    "_baseSample.js": {
+      "format": "esm"
+    },
+    "_baseSampleSize.js": {
+      "format": "esm"
+    },
+    "_baseSet.js": {
+      "format": "esm"
+    },
+    "_baseSetData.js": {
+      "format": "esm"
+    },
+    "_baseSetToString.js": {
+      "format": "esm"
+    },
+    "_baseShuffle.js": {
+      "format": "esm"
+    },
+    "_baseSlice.js": {
+      "format": "esm"
+    },
+    "_baseSome.js": {
+      "format": "esm"
+    },
+    "_baseSortBy.js": {
+      "format": "esm"
+    },
+    "_baseSortedIndex.js": {
+      "format": "esm"
+    },
+    "_baseSortedIndexBy.js": {
+      "format": "esm"
+    },
+    "_baseSortedUniq.js": {
+      "format": "esm"
+    },
+    "_baseSum.js": {
+      "format": "esm"
+    },
+    "_baseTimes.js": {
+      "format": "esm"
+    },
+    "_baseToNumber.js": {
+      "format": "esm"
+    },
+    "_baseToPairs.js": {
+      "format": "esm"
+    },
+    "_baseToString.js": {
+      "format": "esm"
+    },
+    "_baseUnary.js": {
+      "format": "esm"
+    },
+    "_baseUniq.js": {
+      "format": "esm"
+    },
+    "_baseUnset.js": {
+      "format": "esm"
+    },
+    "_baseUpdate.js": {
+      "format": "esm"
+    },
+    "_baseValues.js": {
+      "format": "esm"
+    },
+    "_baseWhile.js": {
+      "format": "esm"
+    },
+    "_baseWrapperValue.js": {
+      "format": "esm"
+    },
+    "_baseXor.js": {
+      "format": "esm"
+    },
+    "_baseZipObject.js": {
+      "format": "esm"
+    },
+    "_cacheHas.js": {
+      "format": "esm"
+    },
+    "_castArrayLikeObject.js": {
+      "format": "esm"
+    },
+    "_castFunction.js": {
+      "format": "esm"
+    },
+    "_castPath.js": {
+      "format": "esm"
+    },
+    "_castRest.js": {
+      "format": "esm"
+    },
+    "_castSlice.js": {
+      "format": "esm"
+    },
+    "_charsEndIndex.js": {
+      "format": "esm"
+    },
+    "_charsStartIndex.js": {
+      "format": "esm"
+    },
+    "_cloneArrayBuffer.js": {
+      "format": "esm"
+    },
+    "_cloneBuffer.js": {
+      "format": "esm"
+    },
+    "_cloneDataView.js": {
+      "format": "esm"
+    },
+    "_cloneMap.js": {
+      "format": "esm"
+    },
+    "_cloneRegExp.js": {
+      "format": "esm"
+    },
+    "_cloneSet.js": {
+      "format": "esm"
+    },
+    "_cloneSymbol.js": {
+      "format": "esm"
+    },
+    "_cloneTypedArray.js": {
+      "format": "esm"
+    },
+    "_compareAscending.js": {
+      "format": "esm"
+    },
+    "_compareMultiple.js": {
+      "format": "esm"
+    },
+    "_composeArgs.js": {
+      "format": "esm"
+    },
+    "_composeArgsRight.js": {
+      "format": "esm"
+    },
+    "_copyArray.js": {
+      "format": "esm"
+    },
+    "_copyObject.js": {
+      "format": "esm"
+    },
+    "_copySymbols.js": {
+      "format": "esm"
+    },
+    "_coreJsData.js": {
+      "format": "esm"
+    },
+    "_countHolders.js": {
+      "format": "esm"
+    },
+    "_createAggregator.js": {
+      "format": "esm"
+    },
+    "_createAssigner.js": {
+      "format": "esm"
+    },
+    "_createBaseEach.js": {
+      "format": "esm"
+    },
+    "_createBaseFor.js": {
+      "format": "esm"
+    },
+    "_createBind.js": {
+      "format": "esm"
+    },
+    "_createCaseFirst.js": {
+      "format": "esm"
+    },
+    "_createCompounder.js": {
+      "format": "esm"
+    },
+    "_createCtor.js": {
+      "format": "esm"
+    },
+    "_createCurry.js": {
+      "format": "esm"
+    },
+    "_createFind.js": {
+      "format": "esm"
+    },
+    "_createFlow.js": {
+      "format": "esm"
+    },
+    "_createHybrid.js": {
+      "format": "esm"
+    },
+    "_createInverter.js": {
+      "format": "esm"
+    },
+    "_createMathOperation.js": {
+      "format": "esm"
+    },
+    "_createOver.js": {
+      "format": "esm"
+    },
+    "_createPadding.js": {
+      "format": "esm"
+    },
+    "_createPartial.js": {
+      "format": "esm"
+    },
+    "_createRange.js": {
+      "format": "esm"
+    },
+    "_createRecurry.js": {
+      "format": "esm"
+    },
+    "_createRelationalOperation.js": {
+      "format": "esm"
+    },
+    "_createRound.js": {
+      "format": "esm"
+    },
+    "_createSet.js": {
+      "format": "esm"
+    },
+    "_createToPairs.js": {
+      "format": "esm"
+    },
+    "_createWrap.js": {
+      "format": "esm"
+    },
+    "_deburrLetter.js": {
+      "format": "esm"
+    },
+    "_defineProperty.js": {
+      "format": "esm"
+    },
+    "_equalArrays.js": {
+      "format": "esm"
+    },
+    "_equalByTag.js": {
+      "format": "esm"
+    },
+    "_equalObjects.js": {
+      "format": "esm"
+    },
+    "_escapeHtmlChar.js": {
+      "format": "esm"
+    },
+    "_escapeStringChar.js": {
+      "format": "esm"
+    },
+    "_flatRest.js": {
+      "format": "esm"
+    },
+    "_freeGlobal.js": {
+      "format": "esm"
+    },
+    "_getAllKeys.js": {
+      "format": "esm"
+    },
+    "_getAllKeysIn.js": {
+      "format": "esm"
+    },
+    "_getData.js": {
+      "format": "esm"
+    },
+    "_getFuncName.js": {
+      "format": "esm"
+    },
+    "_getHolder.js": {
+      "format": "esm"
+    },
+    "_getMapData.js": {
+      "format": "esm"
+    },
+    "_getMatchData.js": {
+      "format": "esm"
+    },
+    "_getNative.js": {
+      "format": "esm"
+    },
+    "_getPrototype.js": {
+      "format": "esm"
+    },
+    "_getSymbols.js": {
+      "format": "esm"
+    },
+    "_getSymbolsIn.js": {
+      "format": "esm"
+    },
+    "_getTag.js": {
+      "format": "esm"
+    },
+    "_getValue.js": {
+      "format": "esm"
+    },
+    "_getView.js": {
+      "format": "esm"
+    },
+    "_getWrapDetails.js": {
+      "format": "esm"
+    },
+    "_hasPath.js": {
+      "format": "esm"
+    },
+    "_hasUnicode.js": {
+      "format": "esm"
+    },
+    "_hasUnicodeWord.js": {
+      "format": "esm"
+    },
+    "_hashClear.js": {
+      "format": "esm"
+    },
+    "_hashDelete.js": {
+      "format": "esm"
+    },
+    "_hashGet.js": {
+      "format": "esm"
+    },
+    "_hashHas.js": {
+      "format": "esm"
+    },
+    "_hashSet.js": {
+      "format": "esm"
+    },
+    "_initCloneArray.js": {
+      "format": "esm"
+    },
+    "_initCloneByTag.js": {
+      "format": "esm"
+    },
+    "_initCloneObject.js": {
+      "format": "esm"
+    },
+    "_insertWrapDetails.js": {
+      "format": "esm"
+    },
+    "_isFlattenable.js": {
+      "format": "esm"
+    },
+    "_isIndex.js": {
+      "format": "esm"
+    },
+    "_isIterateeCall.js": {
+      "format": "esm"
+    },
+    "_isKey.js": {
+      "format": "esm"
+    },
+    "_isKeyable.js": {
+      "format": "esm"
+    },
+    "_isLaziable.js": {
+      "format": "esm"
+    },
+    "_isMaskable.js": {
+      "format": "esm"
+    },
+    "_isMasked.js": {
+      "format": "esm"
+    },
+    "_isPrototype.js": {
+      "format": "esm"
+    },
+    "_isStrictComparable.js": {
+      "format": "esm"
+    },
+    "_iteratorToArray.js": {
+      "format": "esm"
+    },
+    "_lazyClone.js": {
+      "format": "esm"
+    },
+    "_lazyReverse.js": {
+      "format": "esm"
+    },
+    "_lazyValue.js": {
+      "format": "esm"
+    },
+    "_listCacheClear.js": {
+      "format": "esm"
+    },
+    "_listCacheDelete.js": {
+      "format": "esm"
+    },
+    "_listCacheGet.js": {
+      "format": "esm"
+    },
+    "_listCacheHas.js": {
+      "format": "esm"
+    },
+    "_listCacheSet.js": {
+      "format": "esm"
+    },
+    "_mapCacheClear.js": {
+      "format": "esm"
+    },
+    "_mapCacheDelete.js": {
+      "format": "esm"
+    },
+    "_mapCacheGet.js": {
+      "format": "esm"
+    },
+    "_mapCacheHas.js": {
+      "format": "esm"
+    },
+    "_mapCacheSet.js": {
+      "format": "esm"
+    },
+    "_mapToArray.js": {
+      "format": "esm"
+    },
+    "_matchesStrictComparable.js": {
+      "format": "esm"
+    },
+    "_memoizeCapped.js": {
+      "format": "esm"
+    },
+    "_mergeData.js": {
+      "format": "esm"
+    },
+    "_mergeDefaults.js": {
+      "format": "esm"
+    },
+    "_metaMap.js": {
+      "format": "esm"
+    },
+    "_nativeCreate.js": {
+      "format": "esm"
+    },
+    "_nativeKeys.js": {
+      "format": "esm"
+    },
+    "_nativeKeysIn.js": {
+      "format": "esm"
+    },
+    "_nodeUtil.js": {
+      "format": "esm"
+    },
+    "_overArg.js": {
+      "format": "esm"
+    },
+    "_overRest.js": {
+      "format": "esm"
+    },
+    "_parent.js": {
+      "format": "esm"
+    },
+    "_reEscape.js": {
+      "format": "esm"
+    },
+    "_reEvaluate.js": {
+      "format": "esm"
+    },
+    "_reInterpolate.js": {
+      "format": "esm"
+    },
+    "_realNames.js": {
+      "format": "esm"
+    },
+    "_reorder.js": {
+      "format": "esm"
+    },
+    "_replaceHolders.js": {
+      "format": "esm"
+    },
+    "_root.js": {
+      "format": "esm"
+    },
+    "_setCacheAdd.js": {
+      "format": "esm"
+    },
+    "_setCacheHas.js": {
+      "format": "esm"
+    },
+    "_setData.js": {
+      "format": "esm"
+    },
+    "_setToArray.js": {
+      "format": "esm"
+    },
+    "_setToPairs.js": {
+      "format": "esm"
+    },
+    "_setToString.js": {
+      "format": "esm"
+    },
+    "_setWrapToString.js": {
+      "format": "esm"
+    },
+    "_shortOut.js": {
+      "format": "esm"
+    },
+    "_shuffleSelf.js": {
+      "format": "esm"
+    },
+    "_stackClear.js": {
+      "format": "esm"
+    },
+    "_stackDelete.js": {
+      "format": "esm"
+    },
+    "_stackGet.js": {
+      "format": "esm"
+    },
+    "_stackHas.js": {
+      "format": "esm"
+    },
+    "_stackSet.js": {
+      "format": "esm"
+    },
+    "_strictIndexOf.js": {
+      "format": "esm"
+    },
+    "_strictLastIndexOf.js": {
+      "format": "esm"
+    },
+    "_stringSize.js": {
+      "format": "esm"
+    },
+    "_stringToArray.js": {
+      "format": "esm"
+    },
+    "_stringToPath.js": {
+      "format": "esm"
+    },
+    "_toKey.js": {
+      "format": "esm"
+    },
+    "_toSource.js": {
+      "format": "esm"
+    },
+    "_unescapeHtmlChar.js": {
+      "format": "esm"
+    },
+    "_unicodeSize.js": {
+      "format": "esm"
+    },
+    "_unicodeToArray.js": {
+      "format": "esm"
+    },
+    "_unicodeWords.js": {
+      "format": "esm"
+    },
+    "_updateWrapDetails.js": {
+      "format": "esm"
+    },
+    "_wrapperClone.js": {
+      "format": "esm"
+    },
+    "add.js": {
+      "format": "esm"
+    },
+    "after.js": {
+      "format": "esm"
+    },
+    "array.default.js": {
+      "format": "esm"
+    },
+    "array.js": {
+      "format": "esm"
+    },
+    "ary.js": {
+      "format": "esm"
+    },
+    "assign.js": {
+      "format": "esm"
+    },
+    "assignIn.js": {
+      "format": "esm"
+    },
+    "assignInWith.js": {
+      "format": "esm"
+    },
+    "assignWith.js": {
+      "format": "esm"
+    },
+    "at.js": {
+      "format": "esm"
+    },
+    "attempt.js": {
+      "format": "esm"
+    },
+    "before.js": {
+      "format": "esm"
+    },
+    "bind.js": {
+      "format": "esm"
+    },
+    "bindAll.js": {
+      "format": "esm"
+    },
+    "bindKey.js": {
+      "format": "esm"
+    },
+    "camelCase.js": {
+      "format": "esm"
+    },
+    "capitalize.js": {
+      "format": "esm"
+    },
+    "castArray.js": {
+      "format": "esm"
+    },
+    "ceil.js": {
+      "format": "esm"
+    },
+    "chain.js": {
+      "format": "esm"
+    },
+    "chunk.js": {
+      "format": "esm"
+    },
+    "clamp.js": {
+      "format": "esm"
+    },
+    "clone.js": {
+      "format": "esm"
+    },
+    "cloneDeep.js": {
+      "format": "esm"
+    },
+    "cloneDeepWith.js": {
+      "format": "esm"
+    },
+    "cloneWith.js": {
+      "format": "esm"
+    },
+    "collection.default.js": {
+      "format": "esm"
+    },
+    "collection.js": {
+      "format": "esm"
+    },
+    "commit.js": {
+      "format": "esm"
+    },
+    "compact.js": {
+      "format": "esm"
+    },
+    "concat.js": {
+      "format": "esm"
+    },
+    "cond.js": {
+      "format": "esm"
+    },
+    "conforms.js": {
+      "format": "esm"
+    },
+    "conformsTo.js": {
+      "format": "esm"
+    },
+    "constant.js": {
+      "format": "esm"
+    },
+    "countBy.js": {
+      "format": "esm"
+    },
+    "create.js": {
+      "format": "esm"
+    },
+    "curry.js": {
+      "format": "esm"
+    },
+    "curryRight.js": {
+      "format": "esm"
+    },
+    "date.default.js": {
+      "format": "esm"
+    },
+    "date.js": {
+      "format": "esm"
+    },
+    "debounce.js": {
+      "format": "esm"
+    },
+    "deburr.js": {
+      "format": "esm"
+    },
+    "defaultTo.js": {
+      "format": "esm"
+    },
+    "defaults.js": {
+      "format": "esm"
+    },
+    "defaultsDeep.js": {
+      "format": "esm"
+    },
+    "defer.js": {
+      "format": "esm"
+    },
+    "delay.js": {
+      "format": "esm"
+    },
+    "difference.js": {
+      "format": "esm"
+    },
+    "differenceBy.js": {
+      "format": "esm"
+    },
+    "differenceWith.js": {
+      "format": "esm"
+    },
+    "divide.js": {
+      "format": "esm"
+    },
+    "drop.js": {
+      "format": "esm"
+    },
+    "dropRight.js": {
+      "format": "esm"
+    },
+    "dropRightWhile.js": {
+      "format": "esm"
+    },
+    "dropWhile.js": {
+      "format": "esm"
+    },
+    "each.js": {
+      "format": "esm"
+    },
+    "eachRight.js": {
+      "format": "esm"
+    },
+    "endsWith.js": {
+      "format": "esm"
+    },
+    "entries.js": {
+      "format": "esm"
+    },
+    "entriesIn.js": {
+      "format": "esm"
+    },
+    "eq.js": {
+      "format": "esm"
+    },
+    "escape.js": {
+      "format": "esm"
+    },
+    "escapeRegExp.js": {
+      "format": "esm"
+    },
+    "every.js": {
+      "format": "esm"
+    },
+    "extend.js": {
+      "format": "esm"
+    },
+    "extendWith.js": {
+      "format": "esm"
+    },
+    "fill.js": {
+      "format": "esm"
+    },
+    "filter.js": {
+      "format": "esm"
+    },
+    "find.js": {
+      "format": "esm"
+    },
+    "findIndex.js": {
+      "format": "esm"
+    },
+    "findKey.js": {
+      "format": "esm"
+    },
+    "findLast.js": {
+      "format": "esm"
+    },
+    "findLastIndex.js": {
+      "format": "esm"
+    },
+    "findLastKey.js": {
+      "format": "esm"
+    },
+    "first.js": {
+      "format": "esm"
+    },
+    "flatMap.js": {
+      "format": "esm"
+    },
+    "flatMapDeep.js": {
+      "format": "esm"
+    },
+    "flatMapDepth.js": {
+      "format": "esm"
+    },
+    "flatten.js": {
+      "format": "esm"
+    },
+    "flattenDeep.js": {
+      "format": "esm"
+    },
+    "flattenDepth.js": {
+      "format": "esm"
+    },
+    "flip.js": {
+      "format": "esm"
+    },
+    "floor.js": {
+      "format": "esm"
+    },
+    "flow.js": {
+      "format": "esm"
+    },
+    "flowRight.js": {
+      "format": "esm"
+    },
+    "forEach.js": {
+      "format": "esm"
+    },
+    "forEachRight.js": {
+      "format": "esm"
+    },
+    "forIn.js": {
+      "format": "esm"
+    },
+    "forInRight.js": {
+      "format": "esm"
+    },
+    "forOwn.js": {
+      "format": "esm"
+    },
+    "forOwnRight.js": {
+      "format": "esm"
+    },
+    "fromPairs.js": {
+      "format": "esm"
+    },
+    "function.default.js": {
+      "format": "esm"
+    },
+    "function.js": {
+      "format": "esm"
+    },
+    "functions.js": {
+      "format": "esm"
+    },
+    "functionsIn.js": {
+      "format": "esm"
+    },
+    "get.js": {
+      "format": "esm"
+    },
+    "groupBy.js": {
+      "format": "esm"
+    },
+    "gt.js": {
+      "format": "esm"
+    },
+    "gte.js": {
+      "format": "esm"
+    },
+    "has.js": {
+      "format": "esm"
+    },
+    "hasIn.js": {
+      "format": "esm"
+    },
+    "head.js": {
+      "format": "esm"
+    },
+    "identity.js": {
+      "format": "esm"
+    },
+    "inRange.js": {
+      "format": "esm"
+    },
+    "includes.js": {
+      "format": "esm"
+    },
+    "indexOf.js": {
+      "format": "esm"
+    },
+    "initial.js": {
+      "format": "esm"
+    },
+    "intersection.js": {
+      "format": "esm"
+    },
+    "intersectionBy.js": {
+      "format": "esm"
+    },
+    "intersectionWith.js": {
+      "format": "esm"
+    },
+    "invert.js": {
+      "format": "esm"
+    },
+    "invertBy.js": {
+      "format": "esm"
+    },
+    "invoke.js": {
+      "format": "esm"
+    },
+    "invokeMap.js": {
+      "format": "esm"
+    },
+    "isArguments.js": {
+      "format": "esm"
+    },
+    "isArray.js": {
+      "format": "esm"
+    },
+    "isArrayBuffer.js": {
+      "format": "esm"
+    },
+    "isArrayLike.js": {
+      "format": "esm"
+    },
+    "isArrayLikeObject.js": {
+      "format": "esm"
+    },
+    "isBoolean.js": {
+      "format": "esm"
+    },
+    "isBuffer.js": {
+      "format": "esm"
+    },
+    "isDate.js": {
+      "format": "esm"
+    },
+    "isElement.js": {
+      "format": "esm"
+    },
+    "isEmpty.js": {
+      "format": "esm"
+    },
+    "isEqual.js": {
+      "format": "esm"
+    },
+    "isEqualWith.js": {
+      "format": "esm"
+    },
+    "isError.js": {
+      "format": "esm"
+    },
+    "isFinite.js": {
+      "format": "esm"
+    },
+    "isFunction.js": {
+      "format": "esm"
+    },
+    "isInteger.js": {
+      "format": "esm"
+    },
+    "isLength.js": {
+      "format": "esm"
+    },
+    "isMap.js": {
+      "format": "esm"
+    },
+    "isMatch.js": {
+      "format": "esm"
+    },
+    "isMatchWith.js": {
+      "format": "esm"
+    },
+    "isNaN.js": {
+      "format": "esm"
+    },
+    "isNative.js": {
+      "format": "esm"
+    },
+    "isNil.js": {
+      "format": "esm"
+    },
+    "isNull.js": {
+      "format": "esm"
+    },
+    "isNumber.js": {
+      "format": "esm"
+    },
+    "isObject.js": {
+      "format": "esm"
+    },
+    "isObjectLike.js": {
+      "format": "esm"
+    },
+    "isPlainObject.js": {
+      "format": "esm"
+    },
+    "isRegExp.js": {
+      "format": "esm"
+    },
+    "isSafeInteger.js": {
+      "format": "esm"
+    },
+    "isSet.js": {
+      "format": "esm"
+    },
+    "isString.js": {
+      "format": "esm"
+    },
+    "isSymbol.js": {
+      "format": "esm"
+    },
+    "isTypedArray.js": {
+      "format": "esm"
+    },
+    "isUndefined.js": {
+      "format": "esm"
+    },
+    "isWeakMap.js": {
+      "format": "esm"
+    },
+    "isWeakSet.js": {
+      "format": "esm"
+    },
+    "iteratee.js": {
+      "format": "esm"
+    },
+    "join.js": {
+      "format": "esm"
+    },
+    "kebabCase.js": {
+      "format": "esm"
+    },
+    "keyBy.js": {
+      "format": "esm"
+    },
+    "keys.js": {
+      "format": "esm"
+    },
+    "keysIn.js": {
+      "format": "esm"
+    },
+    "lang.default.js": {
+      "format": "esm"
+    },
+    "lang.js": {
+      "format": "esm"
+    },
+    "last.js": {
+      "format": "esm"
+    },
+    "lastIndexOf.js": {
+      "format": "esm"
+    },
+    "lodash.default.js": {
+      "format": "esm"
+    },
+    "lodash.js": {
+      "format": "esm"
+    },
+    "lowerCase.js": {
+      "format": "esm"
+    },
+    "lowerFirst.js": {
+      "format": "esm"
+    },
+    "lt.js": {
+      "format": "esm"
+    },
+    "lte.js": {
+      "format": "esm"
+    },
+    "map.js": {
+      "format": "esm"
+    },
+    "mapKeys.js": {
+      "format": "esm"
+    },
+    "mapValues.js": {
+      "format": "esm"
+    },
+    "matches.js": {
+      "format": "esm"
+    },
+    "matchesProperty.js": {
+      "format": "esm"
+    },
+    "math.default.js": {
+      "format": "esm"
+    },
+    "math.js": {
+      "format": "esm"
+    },
+    "max.js": {
+      "format": "esm"
+    },
+    "maxBy.js": {
+      "format": "esm"
+    },
+    "mean.js": {
+      "format": "esm"
+    },
+    "meanBy.js": {
+      "format": "esm"
+    },
+    "memoize.js": {
+      "format": "esm"
+    },
+    "merge.js": {
+      "format": "esm"
+    },
+    "mergeWith.js": {
+      "format": "esm"
+    },
+    "method.js": {
+      "format": "esm"
+    },
+    "methodOf.js": {
+      "format": "esm"
+    },
+    "min.js": {
+      "format": "esm"
+    },
+    "minBy.js": {
+      "format": "esm"
+    },
+    "mixin.js": {
+      "format": "esm"
+    },
+    "multiply.js": {
+      "format": "esm"
+    },
+    "negate.js": {
+      "format": "esm"
+    },
+    "next.js": {
+      "format": "esm"
+    },
+    "noop.js": {
+      "format": "esm"
+    },
+    "now.js": {
+      "format": "esm"
+    },
+    "nth.js": {
+      "format": "esm"
+    },
+    "nthArg.js": {
+      "format": "esm"
+    },
+    "number.default.js": {
+      "format": "esm"
+    },
+    "number.js": {
+      "format": "esm"
+    },
+    "object.default.js": {
+      "format": "esm"
+    },
+    "object.js": {
+      "format": "esm"
+    },
+    "omit.js": {
+      "format": "esm"
+    },
+    "omitBy.js": {
+      "format": "esm"
+    },
+    "once.js": {
+      "format": "esm"
+    },
+    "orderBy.js": {
+      "format": "esm"
+    },
+    "over.js": {
+      "format": "esm"
+    },
+    "overArgs.js": {
+      "format": "esm"
+    },
+    "overEvery.js": {
+      "format": "esm"
+    },
+    "overSome.js": {
+      "format": "esm"
+    },
+    "pad.js": {
+      "format": "esm"
+    },
+    "padEnd.js": {
+      "format": "esm"
+    },
+    "padStart.js": {
+      "format": "esm"
+    },
+    "parseInt.js": {
+      "format": "esm"
+    },
+    "partial.js": {
+      "format": "esm"
+    },
+    "partialRight.js": {
+      "format": "esm"
+    },
+    "partition.js": {
+      "format": "esm"
+    },
+    "pick.js": {
+      "format": "esm"
+    },
+    "pickBy.js": {
+      "format": "esm"
+    },
+    "plant.js": {
+      "format": "esm"
+    },
+    "property.js": {
+      "format": "esm"
+    },
+    "propertyOf.js": {
+      "format": "esm"
+    },
+    "pull.js": {
+      "format": "esm"
+    },
+    "pullAll.js": {
+      "format": "esm"
+    },
+    "pullAllBy.js": {
+      "format": "esm"
+    },
+    "pullAllWith.js": {
+      "format": "esm"
+    },
+    "pullAt.js": {
+      "format": "esm"
+    },
+    "random.js": {
+      "format": "esm"
+    },
+    "range.js": {
+      "format": "esm"
+    },
+    "rangeRight.js": {
+      "format": "esm"
+    },
+    "rearg.js": {
+      "format": "esm"
+    },
+    "reduce.js": {
+      "format": "esm"
+    },
+    "reduceRight.js": {
+      "format": "esm"
+    },
+    "reject.js": {
+      "format": "esm"
+    },
+    "remove.js": {
+      "format": "esm"
+    },
+    "repeat.js": {
+      "format": "esm"
+    },
+    "replace.js": {
+      "format": "esm"
+    },
+    "rest.js": {
+      "format": "esm"
+    },
+    "result.js": {
+      "format": "esm"
+    },
+    "reverse.js": {
+      "format": "esm"
+    },
+    "round.js": {
+      "format": "esm"
+    },
+    "sample.js": {
+      "format": "esm"
+    },
+    "sampleSize.js": {
+      "format": "esm"
+    },
+    "seq.default.js": {
+      "format": "esm"
+    },
+    "seq.js": {
+      "format": "esm"
+    },
+    "set.js": {
+      "format": "esm"
+    },
+    "setWith.js": {
+      "format": "esm"
+    },
+    "shuffle.js": {
+      "format": "esm"
+    },
+    "size.js": {
+      "format": "esm"
+    },
+    "slice.js": {
+      "format": "esm"
+    },
+    "snakeCase.js": {
+      "format": "esm"
+    },
+    "some.js": {
+      "format": "esm"
+    },
+    "sortBy.js": {
+      "format": "esm"
+    },
+    "sortedIndex.js": {
+      "format": "esm"
+    },
+    "sortedIndexBy.js": {
+      "format": "esm"
+    },
+    "sortedIndexOf.js": {
+      "format": "esm"
+    },
+    "sortedLastIndex.js": {
+      "format": "esm"
+    },
+    "sortedLastIndexBy.js": {
+      "format": "esm"
+    },
+    "sortedLastIndexOf.js": {
+      "format": "esm"
+    },
+    "sortedUniq.js": {
+      "format": "esm"
+    },
+    "sortedUniqBy.js": {
+      "format": "esm"
+    },
+    "split.js": {
+      "format": "esm"
+    },
+    "spread.js": {
+      "format": "esm"
+    },
+    "startCase.js": {
+      "format": "esm"
+    },
+    "startsWith.js": {
+      "format": "esm"
+    },
+    "string.default.js": {
+      "format": "esm"
+    },
+    "string.js": {
+      "format": "esm"
+    },
+    "stubArray.js": {
+      "format": "esm"
+    },
+    "stubFalse.js": {
+      "format": "esm"
+    },
+    "stubObject.js": {
+      "format": "esm"
+    },
+    "stubString.js": {
+      "format": "esm"
+    },
+    "stubTrue.js": {
+      "format": "esm"
+    },
+    "subtract.js": {
+      "format": "esm"
+    },
+    "sum.js": {
+      "format": "esm"
+    },
+    "sumBy.js": {
+      "format": "esm"
+    },
+    "tail.js": {
+      "format": "esm"
+    },
+    "take.js": {
+      "format": "esm"
+    },
+    "takeRight.js": {
+      "format": "esm"
+    },
+    "takeRightWhile.js": {
+      "format": "esm"
+    },
+    "takeWhile.js": {
+      "format": "esm"
+    },
+    "tap.js": {
+      "format": "esm"
+    },
+    "template.js": {
+      "format": "esm"
+    },
+    "templateSettings.js": {
+      "format": "esm"
+    },
+    "throttle.js": {
+      "format": "esm"
+    },
+    "thru.js": {
+      "format": "esm"
+    },
+    "times.js": {
+      "format": "esm"
+    },
+    "toArray.js": {
+      "format": "esm"
+    },
+    "toFinite.js": {
+      "format": "esm"
+    },
+    "toInteger.js": {
+      "format": "esm"
+    },
+    "toIterator.js": {
+      "format": "esm"
+    },
+    "toJSON.js": {
+      "format": "esm"
+    },
+    "toLength.js": {
+      "format": "esm"
+    },
+    "toLower.js": {
+      "format": "esm"
+    },
+    "toNumber.js": {
+      "format": "esm"
+    },
+    "toPairs.js": {
+      "format": "esm"
+    },
+    "toPairsIn.js": {
+      "format": "esm"
+    },
+    "toPath.js": {
+      "format": "esm"
+    },
+    "toPlainObject.js": {
+      "format": "esm"
+    },
+    "toSafeInteger.js": {
+      "format": "esm"
+    },
+    "toString.js": {
+      "format": "esm"
+    },
+    "toUpper.js": {
+      "format": "esm"
+    },
+    "transform.js": {
+      "format": "esm"
+    },
+    "trim.js": {
+      "format": "esm"
+    },
+    "trimEnd.js": {
+      "format": "esm"
+    },
+    "trimStart.js": {
+      "format": "esm"
+    },
+    "truncate.js": {
+      "format": "esm"
+    },
+    "unary.js": {
+      "format": "esm"
+    },
+    "unescape.js": {
+      "format": "esm"
+    },
+    "union.js": {
+      "format": "esm"
+    },
+    "unionBy.js": {
+      "format": "esm"
+    },
+    "unionWith.js": {
+      "format": "esm"
+    },
+    "uniq.js": {
+      "format": "esm"
+    },
+    "uniqBy.js": {
+      "format": "esm"
+    },
+    "uniqWith.js": {
+      "format": "esm"
+    },
+    "uniqueId.js": {
+      "format": "esm"
+    },
+    "unset.js": {
+      "format": "esm"
+    },
+    "unzip.js": {
+      "format": "esm"
+    },
+    "unzipWith.js": {
+      "format": "esm"
+    },
+    "update.js": {
+      "format": "esm"
+    },
+    "updateWith.js": {
+      "format": "esm"
+    },
+    "upperCase.js": {
+      "format": "esm"
+    },
+    "upperFirst.js": {
+      "format": "esm"
+    },
+    "util.default.js": {
+      "format": "esm"
+    },
+    "util.js": {
+      "format": "esm"
+    },
+    "value.js": {
+      "format": "esm"
+    },
+    "valueOf.js": {
+      "format": "esm"
+    },
+    "values.js": {
+      "format": "esm"
+    },
+    "valuesIn.js": {
+      "format": "esm"
+    },
+    "without.js": {
+      "format": "esm"
+    },
+    "words.js": {
+      "format": "esm"
+    },
+    "wrap.js": {
+      "format": "esm"
+    },
+    "wrapperAt.js": {
+      "format": "esm"
+    },
+    "wrapperChain.js": {
+      "format": "esm"
+    },
+    "wrapperLodash.js": {
+      "format": "esm"
+    },
+    "wrapperReverse.js": {
+      "format": "esm"
+    },
+    "wrapperValue.js": {
+      "format": "esm"
+    },
+    "xor.js": {
+      "format": "esm"
+    },
+    "xorBy.js": {
+      "format": "esm"
+    },
+    "xorWith.js": {
+      "format": "esm"
+    },
+    "zip.js": {
+      "format": "esm"
+    },
+    "zipObject.js": {
+      "format": "esm"
+    },
+    "zipObjectDeep.js": {
+      "format": "esm"
+    },
+    "zipWith.js": {
+      "format": "esm"
+    }
+  }
+}

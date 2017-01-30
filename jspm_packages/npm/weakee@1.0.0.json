@@ -1,0 +1,9 @@
+{
+  "main": "weakee.js",
+  "format": "esm",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

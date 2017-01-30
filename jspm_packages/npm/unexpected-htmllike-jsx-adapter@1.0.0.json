@@ -1,0 +1,16 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "src/ReactElementAdapter.js": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js",
+    "./src": "./src/index.js"
+  }
+}

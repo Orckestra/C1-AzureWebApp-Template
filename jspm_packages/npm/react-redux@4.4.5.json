@@ -1,0 +1,26 @@
+{
+  "main": "lib/index.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "src/components/Provider.js": {
+      "format": "esm"
+    },
+    "src/index.js": {
+      "format": "esm"
+    },
+    "src/utils/*": {
+      "format": "esm"
+    }
+  },
+  "map": {
+    "./lib": "./lib/index.js"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "main": "lib/Select.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    ".publish/app.js": {
+      "cjsRequireDetection": false
+    },
+    ".publish/bundle.js": {
+      "cjsRequireDetection": false
+    },
+    ".publish/common.js": {
+      "cjsRequireDetection": false
+    },
+    ".publish/standalone.js": {
+      "cjsRequireDetection": false
+    },
+    "dist/react-select.js": {
+      "cjsRequireDetection": false
+    },
+    "src/utils/defaultFilterOptions.js": {
+      "format": "esm"
+    }
+  }
+}

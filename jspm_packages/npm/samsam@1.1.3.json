@@ -1,0 +1,9 @@
+{
+  "main": "lib/samsam.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "normalizr",
+  "version": "2.2.1",
+  "description": "Normalizes JSON according to schema for Redux and Flux applications",
+  "main": "lib/index.js",
+  "typings": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paularmstrong/normalizr.git"
+  },
+  "keywords": [
+    "flux",
+    "redux",
+    "normalize",
+    "api",
+    "json"
+  ],
+  "files": [
+    "dist",
+    "index.d.ts",
+    "lib",
+    "src"
+  ],
+  "author": "Dan Abramov",
+  "contributors": [
+    "Paul Armstrong"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/paularmstrong/normalizr/issues"
+  },
+  "homepage": "https://github.com/paularmstrong/normalizr",
+  "scripts": {
+    "test": "mocha --compilers js:babel-register --recursive",
+    "test:watch": "npm run test -- --watch",
+    "prebuild": "rimraf dist lib",
+    "build": "webpack && babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-stage-1": "^6.5.0",
+    "babel-register": "^6.8.0",
+    "chai": "^3.2.0",
+    "mocha": "^2.4.5",
+    "rimraf": "^2.4.2",
+    "typescript": "^1.8.10",
+    "typescript-definition-tester": "0.0.4",
+    "webpack": "^1.13.0"
+  },
+  "dependencies": {
+    "lodash": "^4.11.2"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "main": "lib/magicPenPrism.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "magicPenPrism.min.js": {
+      "cjsRequireDetection": false
+    }
+  }
+}

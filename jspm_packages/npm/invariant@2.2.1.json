@@ -1,0 +1,19 @@
+{
+  "main": "invariant.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    }
+  },
+  "map": {
+    "./invariant.js": {
+      "browser": "./browser.js"
+    }
+  }
+}

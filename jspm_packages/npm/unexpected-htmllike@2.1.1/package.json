@@ -1,0 +1,43 @@
+{
+  "name": "unexpected-htmllike",
+  "version": "2.1.1",
+  "description": "Helper library for unexpected plugins that perform assertions on XML like structures",
+  "author": {
+    "name": "Dave Brotherstone",
+    "email": "davegb@pobox.com"
+  },
+  "scripts": {
+    "build": "babel src -d lib --source-maps true",
+    "test": "mocha --compilers js:babel/register src/**/tests/*.spec.js",
+    "lint": "eslint src",
+    "prepublish": "npm run build && npm test",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- --compilers js:babel/register src/**/tests/*.spec.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage || true"
+  },
+  "main": "lib/index.js",
+  "peerDependencies": {
+    "unexpected": "^10.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "babel-eslint": "^6.0.4",
+    "coveralls": "^2.11.9",
+    "eslint": "^2.9.0",
+    "eslint-plugin-react": "^4.2.0",
+    "istanbul": "^0.4.3",
+    "magicpen": "^5.7.0",
+    "magicpen-prism": "^2.2.1",
+    "mocha": "^2.3.3",
+    "mocha-lcov-reporter": "^1.2.0",
+    "unexpected": "^10.10.0"
+  },
+  "dependencies": {
+    "array-changes": "^1.2.1",
+    "array-changes-async": "^2.2.0",
+    "object-assign": "^4.0.1"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruderstein/unexpected-htmllike"
+  }
+}

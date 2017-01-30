@@ -1,0 +1,21 @@
+{
+  "main": "lib/unexpected-react.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    },
+    "src/deepAssertions.js": {
+      "format": "esm"
+    },
+    "src/shallowAssertions.js": {
+      "format": "esm"
+    },
+    "src/types.js": {
+      "format": "esm"
+    },
+    "src/unexpected-react.js": {
+      "format": "esm"
+    }
+  }
+}

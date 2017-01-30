@@ -1,0 +1,12 @@
+{
+  "main": "modules/index.js",
+  "format": "cjs",
+  "meta": {
+    "*.json": {
+      "format": "json"
+    }
+  },
+  "map": {
+    "./modules": "./modules/index.js"
+  }
+}

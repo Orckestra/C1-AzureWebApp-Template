@@ -1,0 +1,31 @@
+<!doctype html>
+  <meta charset="utf-8">
+  <script src="../node_modules/systemjs/dist/system.src.js" type="text/javascript"></script>
+  <script src="config-svg.js"></script>
+  <link rel="stylesheet" type="text/css" href="../node_modules/mocha/mocha.css">
+  <script src="../node_modules/mocha/mocha.js"></script>
+  <script src="../node_modules/chai/chai.js"></script>
+  <body>
+    <div id="mocha">
+  <script>
+    mocha.setup('bdd');
+    System.baseURL = "../";
+    var assert = chai.assert;
+    it('should load svg from disk',function(){
+      return System.import('test/test.svg!').then(function(svg){
+        assert.typeOf(svg.default, 'SVGSVGElement');
+      });
+    });
+
+    it('should fail silently (with console.warn) on invalid svg', function(){
+      return System.import('test/test-browser.html!plugin-svg.js').then(function(svg){
+        assert.isUndefined(svg.default);
+      });
+    });
+if (mochaPhantomJS) {
+  mochaPhantomJS.run();
+}
+else {
+  mocha.run();
+}
+  </script>

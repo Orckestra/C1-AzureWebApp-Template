@@ -1,0 +1,40 @@
+{
+  "name": "array-changes-async",
+  "version": "2.2.1",
+  "description": "Array diffing",
+  "main": "./lib/arrayChanges.js",
+  "scripts": {
+    "lint": "jshint .",
+    "test": "mocha && npm run lint",
+    "travis": "npm test && npm run coverage && (<coverage/lcov.info coveralls || true)",
+    "coverage": "NODE_ENV=development istanbul cover _mocha -- --reporter dot && echo google-chrome coverage/lcov-report/index.html",
+    "prepublishX": "(echo '/*!' && <LICENSE sed -e's/^/ * /' | sed -e's/\\s+$//' && echo ' */' && browserify -p bundle-collapser/plugin -e lib/arrayChanges -s weknowhow.arrayChanges) > array-changes.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bruderstein/array-changes-async"
+  },
+  "keywords": [
+    "diff"
+  ],
+  "author": "Dave Brotherstone <davegb@pobox.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bruderstein/array-changes-async/issues"
+  },
+  "homepage": "https://github.com/bruderstein/array-changes-async",
+  "dependencies": {
+    "arraydiff-async": "0.2.0"
+  },
+  "devDependencies": {
+    "browserify": "10.2.4",
+    "bundle-collapser": "1.2.0",
+    "chance-generators": "1.18.0",
+    "coveralls": "2.11.2",
+    "istanbul": "0.3.17",
+    "jshint": "2.7.0",
+    "mocha": "2.2.5",
+    "unexpected": "10.1.0",
+    "unexpected-check": "1.11.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "main": "js/release/bluebird.js",
+  "meta": {
+    "js/browser/bluebird.js": {
+      "format": "global"
+    },
+    "js/browser/bluebird.min.js": {
+      "format": "global"
+    }
+  },
+  "format": "cjs",
+  "map": {
+    "./js/release/bluebird.js": {
+      "browser": "./js/browser/bluebird.js"
+    }
+  }
+}

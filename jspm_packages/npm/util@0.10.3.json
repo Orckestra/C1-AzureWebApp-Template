@@ -1,0 +1,29 @@
+{
+  "main": "util.js",
+  "format": "cjs",
+  "meta": {
+    "*": {
+      "globals": {
+        "process": "process"
+      }
+    },
+    "*.json": {
+      "format": "json"
+    },
+    "support/isBuffer.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    },
+    "test/browser/is.js": {
+      "globals": {
+        "Buffer": "buffer/global"
+      }
+    }
+  },
+  "map": {
+    "./support/isBuffer.js": {
+      "browser": "./support/isBufferBrowser.js"
+    }
+  }
+}

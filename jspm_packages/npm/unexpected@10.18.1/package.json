@@ -1,0 +1,67 @@
+{
+  "name": "unexpected",
+  "version": "10.18.1",
+  "author": "Sune Sloth Simonsen <sune@we-knowhow.dk>",
+  "keywords": [
+    "assertion",
+    "test",
+    "assert"
+  ],
+  "license": "MIT",
+  "bugs": "https://github.com/unexpectedjs/unexpected/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unexpectedjs/unexpected"
+  },
+  "scripts": {
+    "test": "make test && make test-phantomjs",
+    "lint": "eslint .",
+    "generate-site": "generate-site --require ./bootstrap-unexpected-markdown.js",
+    "update-examples": "generate-site --require ./bootstrap-unexpected-markdown.js --update-examples",
+    "preversion": "test -n \"${IS_MAKE_RELEASE}\" || (echo Please run make release instead && exit 1)"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "array-changes": "2.0.0",
+    "array-changes-async": "3.0.0",
+    "detect-indent": "3.0.1",
+    "diff": "1.1.0",
+    "greedy-interval-packer": "1.2.0",
+    "leven": "2.0.0",
+    "magicpen": "5.10.0",
+    "unexpected-bluebird": "2.9.34-longstack2"
+  },
+  "devDependencies": {
+    "browserify": "5.9.1",
+    "bundle-collapser": "1.1.0",
+    "chewbacca": "1.10.0",
+    "coveralls": "^2.11.9",
+    "es5-shim": "4.0.5",
+    "eslint": "2.4.0",
+    "eslint-config-onelint": "1.0.2",
+    "istanbul": "0.3.16",
+    "jasmine": "2.2.1",
+    "jasmine-core": "~2.2.0",
+    "minimist": "1.1.1",
+    "mocha": "2.4.5",
+    "mocha-phantomjs-core": "2.0.1",
+    "mocha-slow-reporter": "*",
+    "nyc": "6.1.1",
+    "proxyquire": "1.7.4",
+    "rsvp": "3.0.18",
+    "serve": "*",
+    "unexpected-documentation-site-generator": "^4.0.0",
+    "unexpected-magicpen": "0.2.1",
+    "unexpected-markdown": "^1.4.0"
+  },
+  "jspm": {
+    "dependencies": {},
+    "main": "unexpected.js",
+    "jspmPackage": true
+  },
+  "nyc": {
+    "include": [
+      "lib/**"
+    ]
+  }
+}
